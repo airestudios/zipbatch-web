@@ -16,6 +16,41 @@
 @media(max-width:760px){.shell{width:min(100% - 32px,1152px)}.nav-row{height:69px}.brand{min-width:auto}.brand img{width:155px}.nav-links,.nav-actions>.pill{display:none}.menu-toggle{display:inline-flex}.mobile-nav[data-open="true"]{display:grid;gap:0;padding:6px 16px 15px;border-top:1px solid #e9efeb}.mobile-nav a{display:block;padding:12px 0;border-bottom:1px solid #f0f2ef;font-size:14px;font-weight:650;color:#345a47}.hero{padding:66px 0 75px}.hero-grid,.work-grid,.faq-grid{grid-template-columns:1fr}.hero h1{font-size:51px}.hero .lead{font-size:15px}.preview-wrap{padding:18px 8px 14px 0;max-width:600px}.ribbon-inner{justify-content:start;gap:17px 23px}.section{padding:70px 0}.section-head{margin-bottom:29px}.section-head h2{font-size:36px}.feature-grid{grid-template-columns:1fr 1fr}.feature-card{padding:25px}.pricing-grid{grid-template-columns:1fr}.price-card{min-height:auto}.price-card .tier-desc{min-height:0}.footer-top{grid-template-columns:1fr 1fr;gap:32px}.cta-inner{display:block}.cta-inner .pill{margin-top:25px}.inner-layout{display:block;padding-top:42px;padding-bottom:70px}.toc{position:static;display:flex;flex-wrap:wrap;gap:5px 15px;border:0;border-bottom:1px solid #dce8df;padding:0 0 19px;margin-bottom:39px}.toc strong{width:100%}.page-mast{padding:54px 0}.contact-panel{display:block}.contact-panel .pill{margin-top:13px}.two-cols{grid-template-columns:1fr}}
 @media(max-width:480px){.hero h1{font-size:44px}.hero .lead{font-size:14px}.hero-actions{gap:10px}.hero-actions .pill{padding:11px 14px}.feature-grid{grid-template-columns:1fr}.app-preview .preview-body{padding:18px}.preview-card{padding:11px;min-height:105px}.preview-table .p-row{grid-template-columns:1.4fr .9fr .8fr;font-size:9px;padding:10px}.footer-top{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.footer-base{display:block}.footer-base span{display:block;margin-bottom:9px}.two-cols{grid-template-columns:1fr}.map-field{font-size:10px;padding:10px 8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+.pricing-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:985px;margin-inline:auto;gap:22px}
+.price-card{min-height:615px;padding:31px 31px 28px;border-radius:19px;box-shadow:0 6px 25px rgba(23,43,40,.025)}
+.price-card.featured{padding:30px 30px 27px;background:#F7FCF9;border:2px solid #14775A;box-shadow:0 16px 45px rgba(20,119,90,.085)}
+.plan-intro{display:flex;flex-direction:column;gap:4px;min-height:49px}
+.plan-subtitle{margin:0;color:#687f72;font-size:12px;line-height:1.55}
+.price-card .tier{font-size:17px;font-weight:820;color:#172B28}
+.price-card .amount{font-size:51px;margin:21px 0 3px}
+.price-card .tier-desc{min-height:45px;margin:10px 0 0;font-size:13px;line-height:1.7}
+.plan-rule{height:1px;background:#e1eae3;margin:24px 0 24px}
+.price-card ul{gap:13px;margin-bottom:30px}
+.price-card li{font-size:12.5px;line-height:1.55;color:#415a4d}
+.price-card li strong{color:#172B28;font-weight:750}
+.price-card li svg{width:17px;height:17px;stroke-width:2.2;margin-top:1px}
+.price-card li .quiet{font-size:11px;color:#648071}
+.popular{right:21px;top:-15px;letter-spacing:.06em;box-shadow:0 5px 10px rgba(20,119,90,.11)}
+.compare-heading{max-width:985px;margin:58px auto 20px;display:flex;justify-content:space-between;align-items:end;gap:28px}
+.compare-heading h3{font-size:28px;margin:7px 0 0}
+.compare-heading p{font-size:13px;line-height:1.65;max-width:365px;margin:0}
+.compare-overflow{max-width:985px;margin:auto;overflow-x:auto;border:1px solid #D8DFDC;border-radius:16px;background:#fff}
+.compare-table{border-collapse:collapse;width:100%;min-width:610px;table-layout:fixed}
+.compare-table th,.compare-table td{padding:15px 21px;border-bottom:1px solid #e5ece7;font-size:12px;line-height:1.5}
+.compare-table tr:last-child th,.compare-table tr:last-child td{border-bottom:0}
+.compare-table thead th{font-size:13px;color:#172B28;background:#f9fcfa;text-align:left;font-weight:800}
+.compare-table thead th:nth-child(1){width:44%}
+.compare-table thead th:nth-child(2),.compare-table thead th:nth-child(3){width:28%;text-align:center}
+.compare-table thead th span{display:block;font-size:11px;font-weight:550;color:#72877a;margin-top:3px}
+.compare-table tbody th{text-align:left;font-weight:580;color:#395447}
+.compare-table tbody td{text-align:center;color:#365447}
+.compare-table .featured-col{background:#f4fbf6}
+.compare-table thead .featured-col{background:#e9f7ee;color:#116b4f}
+.compare-table .included{color:#14775A;font-weight:730}
+.compare-table .not-included{color:#87958c}
+.price-note{max-width:985px;margin:16px auto 0;font-size:11px;line-height:1.75;color:#657c6e;text-align:left}
+@media(max-width:760px){.pricing-grid{grid-template-columns:1fr;max-width:520px}.price-card,.price-card.featured{padding:26px;min-height:auto}.compare-heading{display:block;margin-top:48px}.compare-heading h3{font-size:26px}.compare-heading p{margin-top:12px}.compare-table th,.compare-table td{padding:12px 13px}}
 </style>
 </head>
 <body>
@@ -48,24 +83,78 @@
 </div></div></section>
 <div class="ribbon"><div class="shell ribbon-inner"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg> Clean column mapping</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v8l4 2M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20"/></svg> Jobs built for repeat work</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17l6-6 4 4 6-9"/></svg> Clear processing updates</span></div></div>
 <section id="features" class="section soft"><div class="shell"><div class="section-head"><div class="eyebrow">Features</div><h2>Everything in its place. <br>Nothing in your way.</h2><p>Purpose-built tools for moving store data without complicated workflows. Start with what you need and keep a clear record of the work you've done.</p></div><div class="feature-grid">
-<div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM4 10h16M10 4v16"/></svg></div><h3>CSV imports and exports</h3><p>Move supported Shopify product, variant and inventory information in a familiar spreadsheet format.</p></div>
+<div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM4 10h16M10 4v16"/></svg></div><h3>CSV &amp; XLSX imports and exports</h3><p>Move supported Shopify product, variant and inventory information in familiar spreadsheet formats.</p></div>
 <div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16M17 4v16M4 7h16M4 17h16"/></svg></div><h3>Flexible column mapping</h3><p>Match your CSV headings to supported Shopify fields rather than rebuilding each spreadsheet to fit an unfamiliar template.</p></div>
 <div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v9l5 3M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"/></svg></div><h3>Background job processing</h3><p>Keep track of longer-running jobs while processing happens in the background instead of relying on a single browser session.</p></div>
 <div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14v16l-7-4-7 4z"/></svg></div><h3>Reusable templates</h3><p>Save useful mappings and configuration choices to reduce repeated setup for familiar data tasks.</p></div>
-<div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg></div><h3>Scheduled workflows</h3><p>Plan repeat tasks around your store's working rhythm, where enabled by your subscription and supported job type.</p></div>
+<div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></svg></div><h3>Scheduled workflows</h3><p>Schedule recurring jobs daily or weekly on Starter, or as frequently as every 15 minutes on Pro, for supported job types.</p></div>
 <div class="feature-card"><div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6zM15 3v5h4M9 12h7M9 16h7"/></svg></div><h3>Job history and diagnostics</h3><p>Review recent activity, processing states and available results to understand what happened to each file.</p></div>
 </div></div></section>
 <section id="how-it-works" class="section"><div class="shell work-grid"><div><div class="section-head"><div class="eyebrow">How it works</div><h2>From file to finished.</h2><p>ZipBatch turns a multi-step data task into a workflow you can follow.</p></div><div class="steps"><div class="step"><div class="step-num">01</div><div><h3>Choose your job</h3><p>Select an import or export and choose the supported data you want to work with.</p></div></div><div class="step"><div class="step-num">02</div><div><h3>Map your columns</h3><p>Review the field mappings before processing. Reuse a saved template when available.</p></div></div><div class="step"><div class="step-num">03</div><div><h3>Run and review</h3><p>Monitor job progress, inspect results and refer back to your job history.</p></div></div></div></div><div class="mapping"><div class="mapping-top"><strong>Column mapping</strong><span class="mini-pill">Illustrative example</span></div><div class="map-row"><div class="map-field">Product Title</div><div class="map-arr">→</div><div class="map-field dest">Product title</div></div><div class="map-row"><div class="map-field">SKU</div><div class="map-arr">→</div><div class="map-field dest">Variant SKU</div></div><div class="map-row"><div class="map-field">Stock Quantity</div><div class="map-arr">→</div><div class="map-field dest">Inventory quantity</div></div><div class="map-row"><div class="map-field">Product Status</div><div class="map-arr">→</div><div class="map-field dest">Status</div></div><div class="mapping-foot"><span>Review your fields before running</span><span class="small-button">Continue →</span></div></div></div></section>
-<section class="section soft" id="pricing"><div class="shell"><div class="section-head center"><div class="eyebrow">Pricing</div><h2>Simple plans for real work.</h2><p>Start with the tools you need. Upgrade as your store's data operations grow. Subscription checkout is handled inside Shopify.</p></div><div class="pricing-grid">
-<div class="price-card"><p class="tier">Starter</p><div class="amount">$10 <small>/ month</small></div><p class="tier-desc">A practical starting point for regular CSV tasks.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>CSV imports and exports</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Column mapping</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Manual job processing</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Job history</li></ul><a class="pill secondary" href="?page=support">Ask about Starter</a></div>
-<div class="price-card featured"><span class="popular">MOST POPULAR</span><p class="tier">Growth</p><div class="amount">$15 <small>/ month</small></div><p class="tier-desc">More room and repeatable workflows for active stores.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Everything in Starter</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Higher job capacity</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Reusable templates</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Supported scheduled workflows</li></ul><a class="pill primary" href="?page=support">Ask about Growth</a></div>
-<div class="price-card"><p class="tier">Pro</p><div class="amount">$20 <small>/ month</small></div><p class="tier-desc">Designed for heavier, recurring data operations.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Everything in Growth</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Highest plan capacity</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Advanced scheduling options</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>Priority processing where available</li></ul><a class="pill secondary" href="?page=support">Ask about Pro</a></div>
-</div><p class="fine" style="text-align:center;max-width:750px;margin:25px auto 0">Prices shown in USD. Plan limits, eligibility, any trial offer, and available features are confirmed during Shopify's in-app subscription flow when the app is published. ZipBatch does not collect app subscription card details on this website.</p></div></section>
+<section class="section soft" id="pricing">
+<div class="shell">
+  <div class="section-head center"><div class="eyebrow">Pricing</div><h2>More control. Less complexity.</h2><p>All the tools you need to import, export and automate your Shopify data. Choose a plan that fits your workflow.</p></div>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <div class="plan-intro"><p class="tier">Starter</p><p class="plan-subtitle">For stores managing everyday data tasks.</p></div>
+      <div class="amount">$10 <small>/ month</small></div>
+      <p class="tier-desc">Essential import, export and automation tools, with generous limits.</p>
+      <div class="plan-rule"></div>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span><strong>50 jobs</strong> per month</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>CSV &amp; XLSX imports and exports</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Custom column mapping and job history</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Saved mapping and export templates</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Daily and weekly scheduling</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span><strong>10</strong> saved schedules</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Up to <strong>25 MB / 25,000 rows</strong> per file</span></li>
+      </ul>
+      <a class="pill secondary" href="?page=support">Enquire about Starter</a>
+    </div>
+    <div class="price-card featured">
+      <span class="popular">MOST POPULAR</span>
+      <div class="plan-intro"><p class="tier">Pro</p><p class="plan-subtitle">For active stores that need more capacity.</p></div>
+      <div class="amount">$15 <small>/ month</small></div>
+      <p class="tier-desc">Everything in Starter, plus higher limits and faster, more frequent workflows.</p>
+      <div class="plan-rule"></div>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span><strong>Unlimited jobs</strong> <span class="quiet">(fair use applies)</span></span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>CSV &amp; XLSX imports and exports</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Custom mapping, history and saved templates</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Daily and weekly scheduling</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span><strong>50</strong> saved schedules</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Up to <strong>50 MB / 50,000 rows</strong> per file</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Hourly and every-15-minute scheduling</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg><span>Priority job processing</span></li>
+      </ul>
+      <a class="pill primary" href="?page=support">Enquire about Pro</a>
+    </div>
+  </div>
+  <div class="compare-heading"><div><span class="eyebrow">Compare plans</span><h3>At a glance.</h3></div><p>Both plans include the core tools. Pro adds capacity and advanced scheduling.</p></div>
+  <div class="compare-overflow" tabindex="0" aria-label="Scroll to compare Starter and Pro features">
+    <table class="compare-table">
+      <thead><tr><th scope="col">Feature</th><th scope="col">Starter <span>$10/mo</span></th><th scope="col" class="featured-col">Pro <span>$15/mo</span></th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Monthly jobs</th><td>50</td><td class="featured-col"><strong>Unlimited*</strong></td></tr>
+        <tr><th scope="row">CSV/XLSX imports and exports</th><td class="included">Included</td><td class="featured-col included">Included</td></tr>
+        <tr><th scope="row">Custom column mapping and job history</th><td class="included">Included</td><td class="featured-col included">Included</td></tr>
+        <tr><th scope="row">Saved mapping/export templates</th><td class="included">Included</td><td class="featured-col included">Included</td></tr>
+        <tr><th scope="row">Daily and weekly scheduling</th><td class="included">Included</td><td class="featured-col included">Included</td></tr>
+        <tr><th scope="row">Saved schedules</th><td>10</td><td class="featured-col"><strong>50</strong></td></tr>
+        <tr><th scope="row">File limits</th><td>25 MB / 25,000 rows</td><td class="featured-col"><strong>50 MB / 50,000 rows</strong></td></tr>
+        <tr><th scope="row">Hourly / every-15-minute scheduling</th><td class="not-included">Not included</td><td class="featured-col included">Included</td></tr>
+        <tr><th scope="row">Priority job processing</th><td class="not-included">Not included</td><td class="featured-col included">Included</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="price-note">All prices in USD, billed monthly through Shopify. *Unlimited Pro jobs are subject to fair use. File size and row limits apply per file.</p>
+</div>
+</section>
 <section class="section" id="faq"><div class="shell faq-grid"><div class="section-head"><div class="eyebrow">FAQ</div><h2>Good questions. Straight answers.</h2><p>Everything you need to know before moving your next CSV file.</p><a class="pill secondary" href="?page=help">Read the guides →</a></div><div class="faq-list">
-<details><summary>What can I import and export?</summary><p>ZipBatch focuses on supported Shopify product, variant and inventory data workflows. The options available inside the app depend on the connected store permissions and the feature set of the installed version.</p></details>
+<details><summary>What can I import and export?</summary><p>ZipBatch supports CSV and XLSX files for supported Shopify product, variant and inventory data workflows. The options available inside the app depend on the connected store permissions and the feature set of the installed version.</p></details>
 <details><summary>Do I need Shopify Plus?</summary><p>Core product and inventory workflows are designed for Shopify stores with the necessary API permissions. Some individual capabilities can vary by plan, store configuration or Shopify API eligibility.</p></details>
 <details><summary>Can I use a CSV with different column names?</summary><p>ZipBatch includes column mapping for supported fields, helping you match spreadsheet columns to the relevant Shopify data without renaming every header first.</p></details>
-<details><summary>How do subscriptions work?</summary><p>Subscription approval, renewals and cancellation are handled through Shopify's app billing system. Any plan-specific limits are described in the subscription screen inside Shopify.</p></details>
+<details><summary>How do subscriptions work?</summary><p>ZipBatch offers Starter at $10/month and Pro at $15/month. Subscription approval, renewals and cancellation are handled through Shopify's app billing system. Starter includes 50 jobs per month; Pro includes unlimited jobs subject to fair use.</p></details>
 <details><summary>Where can I get support?</summary><p>Visit our support page for setup guidance, troubleshooting and a direct email contact. Never include access tokens, passwords or payment card information in support messages.</p></details>
 </div></div></section>
 <section class="bottom-cta"><div class="shell cta-inner"><div><h2>Less friction. More flow.</h2><p>Clear CSV workflows for merchants who have better things to do.</p></div><a href="?page=help" class="pill">Explore the guides →</a></div></section>
